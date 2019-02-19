@@ -1,0 +1,13 @@
+
+<form [formGroup]="form">
+        <ion-list>
+          <ion-item>
+            <ion-label floating>Direccion</ion-label>
+            <ion-input formControlName="texto" type="text" value=""></ion-input>
+          </ion-item>
+          <button ion-button (click)='buscar()'>Buscar</button>
+    
+        </ion-list>
+      </form>
+
+<div #map id="map"></div>
